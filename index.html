@@ -4,7 +4,12 @@
   <title></title>
 </head>
 <body>
-
-  <script src="main.js"></script>
+  Please enter your name to check the reservation:
+  <br>
+  <input type='text' id="name" required>
+  <br>
+  <button onclick="claimReservation(document.getElementById('name').value)">Check reservation</button>
+  <p id="printRes"></p>
+  <script src="main2.js"></script>
 </body>
 </html>
