@@ -6,7 +6,9 @@
 <body>
   Please enter your name to check the reservation:
   <br>
-  <input type='text' id="name" required>
+    <form>
+      <input type='text' id="name" required>
+    </form>
   <br>
   <button onclick="claimReservation(document.getElementById('name').value)">Check reservation</button>
   <p id="printRes"></p>
